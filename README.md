@@ -54,8 +54,8 @@ https://apps.bea.gov/iTable/index_regional.cfm
 * Environment Protective Agency: 
 https://www.epa.gov/
 
-* Google Maps:
-https://developers.google.com/maps/documentation/javascript/heatmaplayer
+* GMaps Module Documentaion:
+https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html#heatmaps
 
 ## World Pollution Heatmap
 
@@ -74,7 +74,7 @@ To create these heatmap I use three things.
 ### Open Data Soft World Pollution dataset API
 This API is available through the opendatasoft website. As usual to access the json with the data we needed a url. This website was very helpful in that it provided you a way to instantly create the query url based on different parameters
 
-After reading the API documentation and playing around with the url creator, I was able to make sense of the query url and was then able to create a country data search url.
+After reading the API documentation and playing around with the url creator, I was able to create a country data search url.
 
 The main logic behind the query code was:
 * Create a list of some of the available countries within the data set
@@ -84,9 +84,26 @@ The main logic behind the query code was:
 This dataframe would contains data for a specific country, city in the country, longitude and latitude for the site and aqi values for different pollutants at the site.
 
 ## Heatmap
-To create the heatmap I used 
-Created a gmaps figure
-Then created a heatmap layer using a gmaps function that take in latitude and longitude values and weighted the layer using aqi values
+To create the heatmap I utilized the python gmaps module
+
+### Steps:
+
+1. Created a gmaps figure
+
+2. Then created a heatmap layer using a gmaps function (that take in latitude and longitude values) and weighted the layer using aqi values
+
+## What is the air pollution trend in the us over time?
+To answer that question we turned to us pollution dataset on kaggle
+Within this dataset we had relevant air pollution data for various states from 2000 - 2016
+To begin our analysis:
+We first read the us pollution data csv from kaggle
+Note some of the columns provided in the data set
+We then created a year column based on the “Date Local” column string and dropped any rows with null values 
+We then selected relevant columns and tried different groupby’s to spot trends.
+Ultimately we created a dataframe of mean aqi values grouped by year which we use to produce the trend graphs 
+Graphed year versus mean aqi value and noticed a clear downward trend meaning that aqi values were going down over time 
+Based on this downward trend we decided to see if mortality counts from some air pollution related illness were also going down potentially suggesting a correlation. 
+
 
 
 
