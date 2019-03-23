@@ -11,7 +11,7 @@ Toxic air pollutants of concern :
 * Carbon monoxide (CO): Emitted by vehicles that burn fossil fuels
 * Particulate matter (PM2.5) (small suspended particles of varying sizes): Tiny bits of dust, dirt, smoke that hang in the air. Can penetrate into the lungs and cause breathing problems
 
-AQI(Air  Quality Index)
+AQI (Air  Quality Index)
 * A measure of how clean or polluted the air is in a given time and location
 * Identifies any health risks to individuals 
 
@@ -82,6 +82,11 @@ The main logic behind the query code was:
 * Within the for loop I would format a url string based on a country in the country list to obtain data for that specific country when requesting from the API
 * Next create a dictionary of relevant data and appended the data to a list of dictionaries which we later used to create a pandas dataframe.
 This dataframe would contains data for a specific country, city in the country, longitude and latitude for the site and aqi values for different pollutants at the site.
+
+## Heatmap:
+To create the heatmap I used 
+Created a gmaps figure
+Then created a heatmap layer using a gmaps function that take in latitude and longitude values and weighted the layer using aqi values
 
 
 
