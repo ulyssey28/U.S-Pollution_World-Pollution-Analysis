@@ -135,6 +135,22 @@ Within this dataset we had relevant air pollution data for various states from 2
 3. Based on the data, U.S GDP does not seem to be a major influence on the decreaing Air Pollutants AQIs  
 
 
+## Other Factors to Consider
+Note: Due to time constraints the scope of this preject was limited to a focus on U.S data. In addition, we limited the "potential influence on aqi levels" discussion to an analysis of GDP's potential influence.
+
+### Analyses to consider:
+
+* Populations growth vs Pollution levels 
+
+* Effect of vehicles on pollution levels 
+
+* Effect of energy consumption on pollution levels
+
+* Effect of Pollution on other illnesses such as cardiovascular and lung cancer
+
+* Other (not considered) factors that make certain regions of the world more polluted than others 
+
+* Same study for several countries
 
 
 
