@@ -1,8 +1,17 @@
 # Air Pollution Analysis (U.S/ World Pollution)
+## Project Members:
 
 Project Manager: Desthy Matouba
+
 Research Lead: Imane Bourzgui
+
 Lead Programmer: Yann Ulysse
+
+This project was a collaborative effort. The purpose of this repository is to highlight my individual contributions to the project as well as explain the overall questions we attempted to answer.
+
+You can find the complete project repository at:
+https://github.com/DesthyKardell/Dangerous_with_Data_Final
+
 
 ## Background and Focus of this Study
 
