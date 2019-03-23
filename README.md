@@ -86,11 +86,12 @@ This dataframe would contains data for a specific country, city in the country, 
 ## Heatmap
 To create the heatmap I utilized the python gmaps module
 
-### Steps:
+### Steps
+For each pollutant:
 
 1. Created a gmaps figure
 
-2. Then created a heatmap layer using a gmaps function (that take in latitude and longitude values) and weighted the layer using aqi values
+2. Then created a heatmap layer using a gmaps function (that takes our acquired latitude and longitude values as parameters) and weighted the layer using aqi values
 
 ## What is the air pollution trend in the us over time?
 To answer that question we turned to us pollution dataset on kaggle
