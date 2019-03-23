@@ -54,7 +54,7 @@ https://apps.bea.gov/iTable/index_regional.cfm
 * Environment Protective Agency: 
 https://www.epa.gov/
 
-* Google Maps
+* Google Maps:
 https://developers.google.com/maps/documentation/javascript/heatmaplayer
 
 ## World Pollution Heatmap
@@ -71,6 +71,18 @@ To create these heatmap we use three things.
 * Pollutant values
 (Obtained from the Open Data Soft World Pollution dataset API)
 
+### Open Data Soft World Pollution dataset API:
+This api is available through the opendatasoft website
+As usual to access the json with the data we needed a url 
+This website was very helpful in that it provided you a way to instantly create the query url based on different parameters
+After reading the api documentation and playing around with the url creator, I was able to make sense of the query url and was then able to create a country data search url.
+
+The main logic behind this code was:
+* Create a list of some of the available countries within the data set
+* Then create a for loop that would act upon the country list
+* Within the for loop we would the format a url string based on a country in the country list to obtain data for that specific country when requesting from the api)
+* We then created a dictionary of relevant data and appended the data to a list of dictionaries which we later used to create a pandas dataframe.
+This dataframe would contains data for a specific country, city in the country, longitude and latitude for the site and aqi values for different pollutants at the site.
 
 
 
