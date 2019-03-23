@@ -24,7 +24,7 @@ What are some of the major influences on Air pollution and what are some of the 
 * What are some factors that could influence a region's concentration of pollutant AQI levels
 (Example: Populations, GDP, Fuel emmisions...)
 
-WIth some of these potential influences in mind we then transitioned into a focus on the U.S
+With some of these potential influences in mind we then transitioned into a focus on the U.S
 
 2. What is the trends of major air pollutants in the United States over time?
 
@@ -34,6 +34,26 @@ WIth some of these potential influences in mind we then transitioned into a focu
 (What are the effects of high pollutant levels on the following?)
 * Mortality Rates
 * Asthma
+
+## Sources and Datasets
+* Open Data Soft World Pollution dataset:
+https://public.opendatasoft.com/explore/dataset/worldwide-pollution/table/?disjunctive.country&disjunctive.filename
+
+* Kaggle US Pollution dataset:
+https://www.kaggle.com/sogun3/uspollution
+
+* Socrata Sandbox Asthma dataset:
+https://bah.demo.socrata.com/Government/DATASET-Asthma-Chronic-Disease-Indicators/neii-ukbv
+
+* Center for Disease Control: 
+https://www.cdc.gov/asthma/most_recent_data.htm
+
+* Bureau of Economic Analysis GDP and Personal Income (Regional Data):  
+https://apps.bea.gov/iTable/index_regional.cfm
+
+* Environment Protective Agency: 
+https://www.epa.gov/
+
 
 
 
