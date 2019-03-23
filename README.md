@@ -103,18 +103,36 @@ Within this dataset we had relevant air pollution data for various states from 2
 1. Read the U.S Pollution CSV from kaggle using pandas.
 
 2. Created a year column based on the “Date Local” column string and dropped any rows with null values.
-* Note: creating an individual year column is necessary as we will preform several dataframe merges based on year. 
+* Note: creating an individual year column is necessary as we will perform several dataframe merges based on year. 
 
 3. Selected relevant columns and tried several groupby collections to spot trends.
 
 4. Created a dataframe of mean aqi values grouped by year which I use to produce the trend line graphs. 
 
 5. Graphed year versus mean aqi value 
-* Overall I noticed a clear downward trend meaning that aqi values were going down over time.
+* Overall we noticed a clear downward trend meaning that aqi values were going down over time.
 
-Based on this downward trend we decided to see if mortality counts from some air pollution related illness were also going down potentially suggesting a correlation. 
+(Based on this downward trend we later looked into whether mortality counts from some air pollution related illness were also going down potentially suggesting a correlation)
 
 
+## How is U.S GDP trending over time in comaprison to the trend of major air pollutants?
+
+### General Summary:
+
+* US GDP is trending up from 2000 to 2016, while the major pollutants are trending down
+
+* The upward trends can be observed in industries such as “Mining, Oil and Gas Extraction”, “Manufacturing”, “Transportation and Warehousing”
+
+* According to the EPA, the Clean Air Act has been positive influence on the economy 
+
+## Summary
+* Note mortality data has been excluded 
+
+1. Air Pollutant AQIs are going down over time, which is in line with Mortality counts’ downward trend over time 
+
+2. Based on the data, we have not observed a strong correlation between Asthma and Pollutant levels.
+
+3. Based on the data, U.S GDP does not seem to be a major influence on the decreaing Air Pollutants AQIs  
 
 
 
