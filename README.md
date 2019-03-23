@@ -61,27 +61,26 @@ https://developers.google.com/maps/documentation/javascript/heatmaplayer
 
 “A heatmap is a visualization used to depict the intensity of data at geographical points. When the Heatmap Layer is enabled, a colored overlay will appear on top of the map. By default, areas of higher intensity will be colored red, and areas of lower intensity will appear green.” - Google Maps API
 
-We created heat maps for each pollutant to show aqi levels within different regions throughout the world based on our World pollution API data.
+I created heatmaps for each pollutant to show aqi levels within different regions throughout the world based on our World pollution API data.
 
 The heatmap produces a neat visual that allows us to potentially make inferences on factors in regions around the world that cause them to have an overall higher concentration of pollutants 
 
-To create these heatmap we use three things.
+To create these heatmap I use three things.
 * Longitudes
 * Latitudes
 * Pollutant values
 (Obtained from the Open Data Soft World Pollution dataset API)
 
 ### Open Data Soft World Pollution dataset API:
-This api is available through the opendatasoft website
-As usual to access the json with the data we needed a url 
-This website was very helpful in that it provided you a way to instantly create the query url based on different parameters
-After reading the api documentation and playing around with the url creator, I was able to make sense of the query url and was then able to create a country data search url.
+This API is available through the opendatasoft website. As usual to access the json with the data we needed a url. This website was very helpful in that it provided you a way to instantly create the query url based on different parameters
+
+After reading the API documentation and playing around with the url creator, I was able to make sense of the query url and was then able to create a country data search url.
 
 The main logic behind this code was:
 * Create a list of some of the available countries within the data set
 * Then create a for loop that would act upon the country list
-* Within the for loop we would the format a url string based on a country in the country list to obtain data for that specific country when requesting from the api)
-* We then created a dictionary of relevant data and appended the data to a list of dictionaries which we later used to create a pandas dataframe.
+* Within the for loop I would format a url string based on a country in the country list to obtain data for that specific country when requesting from the API
+* Next create a dictionary of relevant data and appended the data to a list of dictionaries which we later used to create a pandas dataframe.
 This dataframe would contains data for a specific country, city in the country, longitude and latitude for the site and aqi values for different pollutants at the site.
 
 
