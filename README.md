@@ -1,4 +1,4 @@
-# Air Pollution Analysis (U.S Pollution)
+# Air Pollution Analysis (U.S/ World Pollution)
 
 ## Background and Focus of this Study
 
