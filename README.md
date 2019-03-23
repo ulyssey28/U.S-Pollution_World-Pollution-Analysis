@@ -16,7 +16,7 @@ AQI(Air  Quality Index)
 * Identifies any health risks to individuals 
 
 ## Approach 
-Overall Question:
+### Overall Question:
 What are some of the major influences on Air pollution and what are some of the effects of air pollution? 
 
 Analysis Questions:
