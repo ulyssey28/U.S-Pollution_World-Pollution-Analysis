@@ -1,5 +1,9 @@
 # Air Pollution Analysis (U.S/ World Pollution)
 
+Project Manager: Desthy Matouba
+Research Lead: Imane Bourzgui
+Lead Programmer: Yann Ulysse
+
 ## Background and Focus of this Study
 
 Air pollution is the emission of harmful substances, pollutants, to the atmosphere.
@@ -98,7 +102,7 @@ To answer that question we turned to a U.S pollution dataset on kaggle.
 
 Within this dataset we had relevant air pollution data for various states from 2000 - 2016
 
-### U.S   Air Pollution Trend Analysis:
+### U.S Air Pollution Trend Analysis:
 
 1. Read the U.S Pollution CSV from kaggle using pandas.
 
