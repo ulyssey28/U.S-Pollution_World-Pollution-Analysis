@@ -28,7 +28,7 @@ With some of these potential influences in mind we then transitioned into a focu
 
 2. What is the trends of major air pollutants in the United States over time?
 
-3. How is US GDP trending over time in comaprison to the trend of major air pollutants?
+3. How is U.S GDP trending over time in comaprison to the trend of major air pollutants?
 
 4. How do pollutant levels affect health? 
 (What are the effects of high pollutant levels on the following?)
@@ -59,7 +59,7 @@ https://jupyter-gmaps.readthedocs.io/en/latest/tutorial.html#heatmaps
 
 ## World Pollution Heatmap
 
-“A heatmap is a visualization used to depict the intensity of data at geographical points. When the Heatmap Layer is enabled, a colored overlay will appear on top of the map. By default, areas of higher intensity will be colored red, and areas of lower intensity will appear green.” - Google Maps API
+“A heatmap is a visualization used to depict the intensity of data at geographical points. When the Heatmap Layer is enabled, a colored overlay will appear on top of the map. By default, areas of higher intensity will be colored red, and areas of lower intensity will appear green.” - (Google Maps API heatmap documenation)
 
 I created heatmaps for each pollutant to show aqi levels within different regions throughout the world based on our World pollution API data.
 
@@ -94,15 +94,24 @@ For each pollutant:
 2. Then created a heatmap layer using a gmaps function (that takes our acquired latitude and longitude values as parameters) and weighted the layer using aqi values
 
 ## What is the air pollution trend in the us over time?
-To answer that question we turned to us pollution dataset on kaggle
+To answer that question we turned to a U.S pollution dataset on kaggle. 
+
 Within this dataset we had relevant air pollution data for various states from 2000 - 2016
-To begin our analysis:
-We first read the us pollution data csv from kaggle
-Note some of the columns provided in the data set
-We then created a year column based on the “Date Local” column string and dropped any rows with null values 
-We then selected relevant columns and tried different groupby’s to spot trends.
-Ultimately we created a dataframe of mean aqi values grouped by year which we use to produce the trend graphs 
-Graphed year versus mean aqi value and noticed a clear downward trend meaning that aqi values were going down over time 
+
+### U.S   Air Pollution Trend Analysis:
+
+1. Read the U.S Pollution CSV from kaggle using pandas.
+
+2. Created a year column based on the “Date Local” column string and dropped any rows with null values.
+* Note: creating an individual year column is necessary as we will preform several dataframe merges based on year. 
+
+3. Selected relevant columns and tried several groupby collections to spot trends.
+
+4. Created a dataframe of mean aqi values grouped by year which I use to produce the trend line graphs. 
+
+5. Graphed year versus mean aqi value 
+* Overall I noticed a clear downward trend meaning that aqi values were going down over time.
+
 Based on this downward trend we decided to see if mortality counts from some air pollution related illness were also going down potentially suggesting a correlation. 
 
 
