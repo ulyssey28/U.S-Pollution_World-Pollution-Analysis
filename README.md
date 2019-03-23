@@ -128,7 +128,7 @@ Within this dataset we had relevant air pollution data for various states from 2
 ## Summary
 * Note mortality data has been excluded 
 
-1. Air Pollutant AQIs are going down over time, which is in line with Mortality counts’ downward trend over time 
+1. Air Pollutant AQIs are going down over time, which is in line with the downward trend mortality counts over time
 
 2. Based on the data, we have not observed a strong correlation between Asthma and Pollutant levels.
 
@@ -136,7 +136,7 @@ Within this dataset we had relevant air pollution data for various states from 2
 
 
 ## Limitations
-Note: Due to time constraints the scope of this preject was limited to a focus on U.S data. In addition, we limited the "potential influences on aqi levels" discussion to an analysis of GDP's potential influence.
+Note: Due to time constraints, the scope of this preject was limited to a focus on U.S data. In addition, we limited the "potential influences on aqi levels" discussion to an analysis of GDP's potential influence.
 
 ### Analyses to consider:
 
