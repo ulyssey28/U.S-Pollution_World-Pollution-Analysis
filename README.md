@@ -11,5 +11,30 @@ Toxic air pollutants of concern :
 * Carbon monoxide (CO): Emitted by vehicles that burn fossil fuels
 * Particulate matter (PM2.5) (small suspended particles of varying sizes): Tiny bits of dust, dirt, smoke that hang in the air. Can penetrate into the lungs and cause breathing problems
 
+AQI(Air  Quality Index)
+* A measure of how clean or polluted the air is in a given time and location
+* Identifies any health risks to individuals 
+
+## Approach 
+Overall Question:
+What are some of the major influences on Air pollution and what are some of the effects of air pollution? 
+
+Analysis Questions:
+1. What are the most polluted countries in the world?
+* What are some factors that could influence a region's concentration of pollutant AQI levels
+(Example: Populations, GDP, Fuel emmisions...)
+
+WIth some of these potential influences in mind we then transitioned into a focus on the U.S
+2. What is the trends of major air pollutants in the United States over time?
+
+3. How do pollutant levels affect health? 
+(What are the effects of high pollutant levels on the following?)
+* Mortality Rates
+* Asthma
+
+4. How is US GDP trending over time in comaprison to the trend of major air pollutants?
+
+
+
 
 
