@@ -54,6 +54,23 @@ https://apps.bea.gov/iTable/index_regional.cfm
 * Environment Protective Agency: 
 https://www.epa.gov/
 
+* Google Maps
+https://developers.google.com/maps/documentation/javascript/heatmaplayer
+
+## World Pollution Heatmap
+
+“A heatmap is a visualization used to depict the intensity of data at geographical points. When the Heatmap Layer is enabled, a colored overlay will appear on top of the map. By default, areas of higher intensity will be colored red, and areas of lower intensity will appear green.” - Google Maps API
+
+We created heat maps for each pollutant to show aqi levels within different regions throughout the world based on our World pollution API data.
+
+The heatmap produces a neat visual that allows us to potentially make inferences on factors in regions around the world that cause them to have an overall higher concentration of pollutants 
+
+To create these heatmap we use three things.
+* Longitudes
+* Latitudes
+* Pollutant values
+(Obtained from the Open Data Soft World Pollution dataset API)
+
 
 
 
