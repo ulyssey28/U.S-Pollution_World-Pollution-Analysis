@@ -76,7 +76,7 @@ This API is available through the opendatasoft website. As usual to access the j
 
 After reading the API documentation and playing around with the url creator, I was able to make sense of the query url and was then able to create a country data search url.
 
-The main logic behind this code was:
+The main logic behind the query code was:
 * Create a list of some of the available countries within the data set
 * Then create a for loop that would act upon the country list
 * Within the for loop I would format a url string based on a country in the country list to obtain data for that specific country when requesting from the API
