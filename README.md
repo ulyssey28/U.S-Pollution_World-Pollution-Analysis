@@ -140,7 +140,7 @@ Note: Due to time constraints, the scope of this preject was limited to a focus 
 
 ### Analyses to consider:
 
-* Populations growth vs Pollution levels 
+* Populations growth vs Pollution levels (Using acquired census data)
 
 * Effect of vehicles on pollution levels 
 
