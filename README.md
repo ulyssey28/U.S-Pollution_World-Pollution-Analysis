@@ -21,7 +21,7 @@ What are some of the major influences on Air pollution and what are some of the 
 
 ### Analysis Questions:
 1. What are the most polluted countries in the world?
-* What are some factors that could influence a region's concentration of pollutant AQI levels
+ * What are some factors that could influence a region's concentration of pollutant AQI levels
 (Example: Populations, GDP, Fuel emmisions...)
 
 With some of these potential influences in mind we then transitioned into a focus on the U.S
@@ -32,8 +32,8 @@ With some of these potential influences in mind we then transitioned into a focu
 
 4. How do pollutant levels affect health? 
 (What are the effects of high pollutant levels on the following?)
-* Mortality Rates
-* Asthma
+ * Mortality Rates
+ * Asthma
 
 ## Sources and Datasets
 * Open Data Soft World Pollution dataset:
@@ -71,7 +71,7 @@ To create these heatmap I use three things.
 * Pollutant values
 (Obtained from the Open Data Soft World Pollution dataset API)
 
-### Open Data Soft World Pollution dataset API:
+### Open Data Soft World Pollution dataset API
 This API is available through the opendatasoft website. As usual to access the json with the data we needed a url. This website was very helpful in that it provided you a way to instantly create the query url based on different parameters
 
 After reading the API documentation and playing around with the url creator, I was able to make sense of the query url and was then able to create a country data search url.
@@ -83,7 +83,7 @@ The main logic behind the query code was:
 * Next create a dictionary of relevant data and appended the data to a list of dictionaries which we later used to create a pandas dataframe.
 This dataframe would contains data for a specific country, city in the country, longitude and latitude for the site and aqi values for different pollutants at the site.
 
-## Heatmap:
+## Heatmap
 To create the heatmap I used 
 Created a gmaps figure
 Then created a heatmap layer using a gmaps function that take in latitude and longitude values and weighted the layer using aqi values
