@@ -123,7 +123,7 @@ Within this dataset we had relevant air pollution data for various states from 2
 
 * The upward trends can be observed in industries such as “Mining, Oil and Gas Extraction”, “Manufacturing”, “Transportation and Warehousing”
 
-* According to the EPA, the Clean Air Act has been positive influence on the economy 
+* According to the EPA, the Clean Air Act has been a positive influence on the economy (Possible explanation for GDP trend vs Air Pollution AQI trends)
 
 ## Summary
 * Note mortality data has been excluded 
