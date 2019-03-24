@@ -149,7 +149,7 @@ Within this dataset we had relevant air pollution data for various states from 2
 
 
 ## Limitations
-Note: Due to time constraints, the scope of this preject was limited to a focus on U.S data. In addition, we limited the "potential influences on aqi levels" discussion to an analysis of GDP's potential influence.
+Note: Due to time constraints, the scope of this project was limited to a focus on U.S data. In addition, we limited the "potential influences on aqi levels" discussion to an analysis of GDP's potential influence.
 
 ### Analyses to consider:
 
