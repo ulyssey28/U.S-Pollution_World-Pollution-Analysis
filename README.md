@@ -96,6 +96,8 @@ The main logic behind the query code was:
 * Next create a dictionary of relevant data and appended the data to a list of dictionaries which we later used to create a pandas dataframe.
 This dataframe would contains data for a specific country, city in the country, longitude and latitude for the site and aqi values for different pollutants at the site.
 
+(The code for this portion can be found in the World_Heatmaps_US_Pollution_Trend_Yann folder in the World Pollution Api Data folder)
+
 ## Heatmap
 To create the heatmap I utilized the python gmaps module
 
@@ -105,6 +107,9 @@ For each pollutant:
 1. Created a gmaps figure
 
 2. Then created a heatmap layer using a gmaps function (that takes our acquired latitude and longitude values as parameters) and weighted the layer using aqi values
+
+(The code for this portion can be found in the World_Heatmaps_US_Pollution_Trend_Yann folder in the Graph Code folder. Note to running this code will require a [Google Maps API Key](https://developers.google.com/maps/documentation/javascript/get-api-key). You must Enter the API key into the `config.py` file within the Graph Code Folder)
+
 
 ## What is the air pollution trend in the us over time?
 To answer that question we turned to a U.S pollution dataset on kaggle. 
