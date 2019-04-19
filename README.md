@@ -13,6 +13,11 @@ You can find the complete project repository at:
 https://github.com/DesthyKardell/Dangerous_with_Data_Final
 
 
+### If you would like to run some of the code for this project:
+1. Read through the README.MD for details regarding file location and API keys.
+2. Clone this repository.
+3. Run Jupyter Notebook files.
+
 ## Background and Focus of this Study
 
 Air pollution is the emission of harmful substances, pollutants, to the atmosphere.
