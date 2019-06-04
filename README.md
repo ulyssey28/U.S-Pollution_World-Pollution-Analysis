@@ -40,7 +40,7 @@ What are some of the major influences on Air pollution and what are some of the 
 ### Analysis Questions:
 1. What are the most polluted countries in the world?
  * What are some factors that could influence a region's concentration of pollutant AQI levels
-(Example: Populations, GDP, Fuel emmisions...)
+(Example: Populations, GDP, Fuel emisions...)
 
 With some of these potential influences in mind we then transitioned into a focus on the U.S
 
